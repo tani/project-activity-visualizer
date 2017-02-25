@@ -1,9 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Project Activity Visualizer",
-    "version": "0.1",
-
-    "description": "Firefox addon to visualize project activity with commit frequency",
+    "version": "0.2",
+    "description": "Visualize project activity in Github",
     "homepage_url": "https://github.com/ta2gch/ProjectActivityVisualizer",
     "icons": {
         "48": "icons/icon-48.png",
