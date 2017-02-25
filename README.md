@@ -1,5 +1,9 @@
+<div align="center">
+<img src="https://github.com/ta2gch/ProjectActivityVisualizer/raw/master/icons/icon-48.png">
+</div>
+
 Project Activity Visualizer
-========================
+===========================
 Visualize project activity in Github
 
 ## Usage
