@@ -1,4 +1,4 @@
-function badge(user: string, repo: string, status:string, color:string): HTMLElement {
+function createBadge(user: string, repo: string, status:string, color:string): HTMLElement {
     let li: HTMLElement   = document.createElement('li');
     li.style.borderColor  = color;
     li.style.boxSizing    = 'border-box';
@@ -17,7 +17,7 @@ function badge(user: string, repo: string, status:string, color:string): HTMLEle
 }
 
 export default function insertBadge(user: string, repo: string, status:string,color:string): void {
-    const element: HTMLElement = badge(user, repo, status, color);
-    const container: Element = document.querySelector('.pagehead-actions');
+    const element: HTMLElement = createBadge(user, repo, status, color);
+    const container: Element   = document.querySelector('.pagehead-actions');
     container.insertBefore(element, container.firstChild);
 }

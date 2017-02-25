@@ -1,8 +1,8 @@
-import check from './checker'
+import getCommitFrequency from './checker'
 import insertBadge from './badge'
 
 (async () => {
-    const [user, repo, week, month, year] = await check(location.href)
+    const [user, repo, week, month, year] = await getCommitFrequency(location.href)
     if(week >= 10){
         insertBadge(user, repo, 'Development','red');
     }else if(month >= 10){
