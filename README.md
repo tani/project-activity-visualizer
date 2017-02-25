@@ -2,7 +2,9 @@
     <img src="https://github.com/ta2gch/ProjectActivityVisualizer/raw/master/icons/icon-96.png">
     <h1>Project Activity Visualizer</h1>
     <p>Visualize project activity in Github</p>
-    <img src="https://travis-ci.org/ta2gch/ProjectActivityVisualizer.svg?branch=master">
+    <a href="https://travis-ci.org/ta2gch/ProjectActivityVisualizer">
+        <img src="https://travis-ci.org/ta2gch/ProjectActivityVisualizer.svg?branch=master">
+    </a>
 </div>
 
 ## Usage
