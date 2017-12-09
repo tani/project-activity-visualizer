@@ -3,7 +3,7 @@
     "name": "Project Activity Visualizer",
     "version": "0.2",
     "description": "Visualize project activity in Github",
-    "homepage_url": "https://github.com/ta2gch/ProjectActivityVisualizer",
+    "homepage_url": "https://github.com/asciian/ProjectActivityVisualizer",
     "icons": {
         "48": "icons/icon-48.png",
         "96": "icons/icon-96.png"
